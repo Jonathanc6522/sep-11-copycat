@@ -8,10 +8,6 @@
      </head>
 <style>
 
-a:hover {
-  color:rgb(255,255,255);
-  
-}
 
 
 body {
@@ -32,7 +28,7 @@ h1 {
 
 }
 
-.welcome {
+.welcome-box {
     text-align: center;
     background: #4D6AB3;
     background: rgba(255, 255, 255, 0.1);
@@ -43,6 +39,7 @@ h1 {
     height:300px;
     margin: 0 auto;
     width: 300px;
+    position:static;
     
 }
 
@@ -54,7 +51,8 @@ h1 {
     background: rgba(255,255,255,0.2);
     text-align: center;
     z-index:1;
-    
+    /*position:static; */
+    top:70;
 }
 
 
@@ -64,11 +62,11 @@ h1 {
 <body>
 <div class= "img"></div>
   </body>
-<img src= "https://pupilpath.skedula.com/img/logo_io.png" width= "70%" height= "70%">
+<img src= "https://pupilpath.skedula.com/img/logo_io.png" width= "50%" height= "50%">
 <p>
 
-  Sign In
-  <div class= "welcome"></div>
-  <div class= "sign-in-box"></div>
+  <div class= "welcome-box">
+  <div class= "sign-in-box">Sign-In</div>
+  </div>
 </p>
 </html>
